@@ -234,12 +234,25 @@ $(document).ready(function(){
   $("#searchBox").click(function(){
     $("#searchBox").animate({marginLeft:'2%',width:"84%",borderRadius:"10px"});
     $("#searchResults").fadeIn(1000);
+    var searchSongsHTML="";
+    for(var i=0; i<25; i++){
+      searchSongsHTML+=" <li class='list-group-item'><a class='text-decoration-none' href='redirect.html#"+i+"'>"+fullSongList[i]['name']+"</a></li>";
+    }
+    $("#searchResultsId").html(searchSongsHTML);
   });
 
   //remove search results popup any click
   $("#mainPhoto,#alwaysPlayingWindow").click(function(){
     $("#searchBox").animate({marginLeft:'5%',width:"40%",borderRadius:"20px"});
     $("#searchResults").hide();
+  });
+
+  //filter the songs
+  $("#searchBox").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#searchResultsId li").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
   });
 
   //when click a next and previous button

@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>Online Music Player</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/4812412aa4.js" crossorigin="anonymous"></script>
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="//connect.soundcloud.com/sdk.js"></script>
@@ -25,7 +24,8 @@
             <div class="col-sm-6" id="leftSideWindow">
               <input type="search" id="searchBox" class="form-control" placeholder="Search songs...">
               <div id="searchResults">
-                <p>No results found...</p>
+                <ul class="list-group list-group-flush" id="searchResultsId">
+                </ul>
               </div>
               <div id="mainPhoto">
               </div>

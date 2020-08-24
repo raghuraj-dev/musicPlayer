@@ -20,6 +20,7 @@ html,body{
 #searchResults{
   position:absolute;
   margin-left: 2%;
+  overflow:scroll;
   width:80%;
   min-height:25%;
   max-height: 50%;
