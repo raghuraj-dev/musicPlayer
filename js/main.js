@@ -231,7 +231,7 @@ $(document).ready(function(){
   $("#songListID").html(songListHTML);
 
   //when click search songs
-  $("#searchBox").click(function(){
+  $("#searchBox").keyup(function(){
     $("#searchBox").animate({marginLeft:'2%',width:"84%",borderRadius:"10px"});
     $("#searchResults").fadeIn(1000);
     var searchSongsHTML="";
