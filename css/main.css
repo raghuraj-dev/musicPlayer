@@ -3,10 +3,6 @@ html,body{
 }
 
 /* nowPlaying page style start... */
-#nowPlayingWindow{
-  /* background-image: linear-gradient(to right,#ccffff,#ffffcc); */
-}
-
 #leftSideWindow{
   height:85vh;
 }
@@ -43,16 +39,27 @@ html,body{
   margin:5%;
   box-shadow: 0 0 10px black;
 }
+#mainPhoto:hover{
+  box-shadow: 0 0 20px brown;
+  transform: scale(0.98);
+  transition: transform 1s;
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
 #rightSideWindow{
   height:78vh;
 }
 .songHover:hover{
-  background-image: linear-gradient(to right,#0097A7,white);
-  box-shadow: 0 0 10px #00BFFF;
+  background-image: linear-gradient(to right,white,gray);
+  box-shadow: 0 0 10px gray;
+  transform:scale(1.05);
+  transition: transform 1s;
 }
 #songListDiv{
+  margin-top: 10%;
   height:80%;
   overflow: auto;
+  overflow-x: hidden;
   box-shadow: 0 0 10px black;
   border-radius: 10px;
 }
