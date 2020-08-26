@@ -4,7 +4,7 @@ html,body{
 
 /* nowPlaying page style start... */
 #nowPlayingWindow{
-  background-image: linear-gradient(to right,#0097A7,white);
+  /* background-image: linear-gradient(to right,#ccffff,#ffffcc); */
 }
 
 #leftSideWindow{

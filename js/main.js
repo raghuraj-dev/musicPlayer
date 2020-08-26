@@ -11,17 +11,13 @@ $(document).ready(function(){
     name:"Kadhal asai yaarai viddatho",
     movie:'Anjan',
     music:'Yuvan Shankar Raja',
-    id:"/tracks/179142498",
-    stColor:"#E91E63",
-    EnColor:"#42A5F5"
+    id:"/tracks/179142498"
   };
   var song2={
     name:"Melliname melliname",
     movie:"Shahjahan",
     music:"Harish Raghavendra",
-    id:"/tracks/201592382",
-    stColor:"#BA4A00",
-    EnColor:"#F4D03F"
+    id:"/tracks/201592382"
   };
   var song3={
     name:"Maayam seithayo",
@@ -35,177 +31,133 @@ $(document).ready(function(){
     name:"Thenral vanthu",
     movie:"Avatharam",
     music:"Ilaiyaraaja",
-    id:"/tracks/32737742",
-    stColor:"#EC7063",
-    EnColor:"#99A3A4"
+    id:"/tracks/32737742"
   };
   var song5={
     name:"Neela vaanam",
     movie:"Manmadan Ambu",
     music:"Kamal Haasan",
-    id:"/tracks/12302484",
-    stColor:"#B2BABB",
-    EnColor:"#ABEBC6"
+    id:"/tracks/12302484"
   };
   var song6={
     name:"Kaatrin mozhi",
     movie:"Mozhi",
     music:"Balaram",
-    id:"/tracks/78761822",
-    stColor:"#7DCEA0",
-    EnColor:"#A9DFBF"
+    id:"/tracks/78761822"
   };
   var song7={
     name:"Vinnai thandi varuvaya",
     movie:"Vinnaithaandi Varuvaayaa",
     music:"Vivek Agrawal",
-    id:"/tracks/89404205",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/89404205"
   };
   var song8={
     name:"Neeyum naanum",
     movie:"Naanum Rowdy Dhaan",
     music:"Neeti Mohan",
-    id:"/tracks/233264073",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/233264073"
   };
   var song9={
     name:"Vaseegara",
     movie:"Minnale",
     music:"Bombay Jayashri",
-    id:"/tracks/135307692",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/135307692"
   };
   var song10={
     name:"Puthu vellai mazhai",
     movie:"Roja",
     music:"Unni Menon",
-    id:"/tracks/63652461",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/63652461"
   };
   var song11={
     name:"Unnai kodu ennai tharuven",
     movie:"Unnai Kodu Ennai Tharuven",
     music:"Unnikrishnan",
-    id:"/tracks/109748777",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/109748777"
   };
   var song12={
     name:"Hi sonna pothum",
     movie:"Comali",
     music:"Kaushik Krish",
-    id:"/tracks/663861038",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/663861038"
   };
   var song13={
     name:"Tum hi ho",
     movie:"Aashiqui 2",
     music:"Arijit Singh",
-    id:"/tracks/85728261",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/85728261"
   };
   var song14={
     name:"Rowdy baby",
     movie:"Maari 2",
     music:"Dhanush",
-    id:"/tracks/556842441",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/556842441"
   };
   var song15={
     name:"Kanda kannazhagi",
     movie:"Namma veeddu pillai",
     music:"Sivakarthikeyan",
-    id:"/tracks/717688582",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/717688582"
   };
   var song16={
     name:"Senorita",
     movie:"album",
     music:"Shawn Mendes",
-    id:"/tracks/641570523",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/641570523"
   };
   var song17={
     name:"What do you mean",
     movie:"Purpose",
     music:"Justin Bieber",
-    id:"/tracks/221368871",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/221368871"
   };
   var song18={
     name:"Po inru neeyaka",
     movie:"Velaiyilla Pattathari",
     music:"Anirudh Ravichander",
-    id:"/tracks/134782098",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/134782098"
   };
   var song19={
     name:"Why this kolaveri",
     movie:"3",
     music:"Dhanush",
-    id:"/tracks/45791711",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/45791711"
   };
   var song20={
     name:"Titanic theme music",
     movie:"Titanic",
     music:"Titanic",
-    id:"/tracks/18848631",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/18848631"
   };
   var song21={
     name:"Anjali anjali",
     movie:"Duet",
     music:"A. R. Rahman",
-    id:"/tracks/345497207",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/345497207"
   };
   var song22={
     name:"Enna solla pogirai",
     movie:"Kandukondain Kandukondain",
     music:"Shankar Mahadevan",
-    id:"/tracks/517722948",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/517722948"
   };
   var song23={
     name:"Minnalai pidiththu",
     movie:"Shahjahan",
     music:"Unni Menon",
-    id:"/tracks/28343404",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/28343404"
   };
   var song24={
     name:"Un perai sollum pothe",
     movie:"Angadi Theru",
     music:"Haricharan",
-    id:"/tracks/5189714",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/5189714"
   };
   var song25={
     name:"Uruguthey",
     movie:"Veyil",
     music:"GV Prakash",
-    id:"/tracks/62938307",
-    stColor:"#0097A7",
-    EnColor:"white"
+    id:"/tracks/62938307"
   };
   var fullSongList=[song1,song2,song3,song4,song5,song6,song7,song8,song9,song10,song11,song12,song13,song14,song15,song16,song17,song18,song19,song20,song21,song22,song23,song24,song25];
   if((addressBar>0)&&(addressBar<=24)){
@@ -213,7 +165,6 @@ $(document).ready(function(){
     $("#songTitle").html(fullSongList[addressBar]['name']);
     $("#movieName").html(fullSongList[addressBar]['movie']+"-"+fullSongList[addressBar]['music']);
     $("#mainPhoto").css("background-image","url('./img/song"+addressBar+".jpg')");
-    $("#nowPlayingWindow").css("background-image","linear-gradient(to right,"+fullSongList[addressBar]['stColor']+","+fullSongList[addressBar]['EnColor']+")");
   }
   else{
     selectedSong=fullSongList[0]['id'];
